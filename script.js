@@ -174,9 +174,75 @@ function gallery() {
 }
 
 function contact() {
-  return `<section id="contact" class="section contact"><div class="container contact-grid"><div class="reveal"><div class="eyebrow light">Connect now</div><h2>Let’s give your scrap a <span class="accent">better destination.</span></h2><p class="contact-copy">Tell us what needs clearing. Our team will get back to you with the next practical step.</p><div class="contact-actions"><a class="button primary" href="tel:+91${PHONE}">${icon("phone", 16)} ${PHONE}</a><a class="button outline" href="mailto:${EMAIL}">${icon("mail", 16)} Email us</a></div><p class="address">${icon("map", 17)} <span>${ADDRESS}</span></p></div><div class="inquiry-card reveal"><div class="inquiry-head"><div><div class="eyebrow">Future inquiry form</div><h3>Share a few details</h3></div>${icon("file", 26)}</div><div class="inquiry-box"><div class="inquiry-icon">${icon("mail", 20)}</div><strong>A Google Form will live here soon.</strong><p>For now, call or email us directly. We have intentionally left this space ready for the official inquiry flow.</p><span class="pending">${icon("clock", 14)} Form link pending</span></div><div class="inquiry-tip">${icon("badge", 16)}<span>Include your location, approximate scrap type and preferred pickup window when you contact us.</span></div></div></div></section>`;
-}
+  return `
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
 
+        <div class="reveal">
+          <div class="eyebrow light">Connect now</div>
+
+          <h2>
+            Let’s give your scrap a
+            <span class="accent">better destination.</span>
+          </h2>
+
+          <p class="contact-copy">
+            Tell us what needs clearing. Our team will get back to you with
+            the next practical step.
+          </p>
+
+          <div class="contact-actions">
+            <a class="button primary" href="tel:+91${PHONE}">
+              ${icon("phone", 16)} ${PHONE}
+            </a>
+
+            <a class="button outline" href="mailto:${EMAIL}">
+              ${icon("mail", 16)} Email us
+            </a>
+          </div>
+
+          <p class="address">
+            ${icon("map", 17)}
+            <span>${ADDRESS}</span>
+          </p>
+        </div>
+
+        <div class="inquiry-card reveal">
+          <div class="inquiry-head">
+            <div>
+              <div class="eyebrow">Connect with us</div>
+              <h3>Share a few details</h3>
+            </div>
+
+            ${icon("file", 26)}
+          </div>
+
+          <div class="inquiry-box google-form-box">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSekk6TjGFbE7eVdsgqG-VEMU_aFTbE_lf4y7u4BbRQqik8rPA/viewform?embedded=true"
+              width="640"
+              height="989"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+              title="Arputham Traders enquiry form">
+              Loading…
+            </iframe>
+          </div>
+
+          <div class="inquiry-tip">
+            ${icon("badge", 16)}
+            <span>
+              Include your location, approximate scrap type and preferred pickup
+              window when you contact us.
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  `;
+}
 function home() {
   return `<main>${hero()}${trustStrip()}${services()}${process()}${gallery()}${contact()}</main>`;
 }
