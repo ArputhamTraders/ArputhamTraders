@@ -9,7 +9,7 @@
 Chennai's trusted scrap collector — a fast, static, zero-build website
 for a real-world scrap collection & recycling business.
 
-[![Live Site](https://img.shields.io/badge/live%20site-arputhamtraders.work.gd-1c6b3a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://arputhamtraders.work.gd)
+[![Live Site](https://img.shields.io/badge/live%20site-arputhamtraders.online-1c6b3a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://arputhamtraders.online)
 [![Made with HTML/CSS/JS](https://img.shields.io/badge/stack-HTML%20%7C%20CSS%20%7C%20Vanilla%20JS-0c3320?style=for-the-badge&logo=html5&logoColor=white)](#-tech-stack)
 [![Deploys to GitHub Pages](https://img.shields.io/badge/deploys%20to-GitHub%20Pages-a6c400?style=for-the-badge&logo=github&logoColor=0c3320)](#-deployment)
 [![License](https://img.shields.io/badge/license-Proprietary-c9a227?style=for-the-badge)](#-license)
@@ -33,10 +33,10 @@ Pages (or Netlify) and serve well even on slower mobile connections.
 |                |                                                                           |
 | -------------- | ------------------------------------------------------------------------- |
 | 📞 **Phone**   | [90804 09073](tel:+919080409073)                                          |
-| 📧 **Email**   | [connect@arputhamtraders.work.gd](mailto:connect@arputhamtraders.work.gd) |
+| 📧 **Email**   | [connect@arputhamtraders.online](mailto:connect@arputhamtraders.online) |
 | 📍 **Address** | 12/25 83rd Street, Ashok Nagar, Chennai, Tamil Nadu                       |
 | 🕐 **Hours**   | Mon – Sat, 9:00 AM – 7:00 PM                                              |
-| 🌐 **Website** | [arputhamtraders.work.gd](https://arputhamtraders.work.gd)                |
+| 🌐 **Website** | [arputhamtraders.online](https://arputhamtraders.online)                |
 
 ---
 
@@ -75,7 +75,7 @@ other parties without permission.
 
 <div align="center">
 
-**Got scrap lying around?** [Connect with us](https://arputhamtraders.work.gd/connect.html) ·
+**Got scrap lying around?** [Connect with us](https://arputhamtraders.online/connect.html) ·
 📞 [90804 09073](tel:+919080409073)
 
 </div>
